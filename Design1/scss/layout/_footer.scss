@@ -1,0 +1,108 @@
+// Footer
+.footer {
+    &-top {
+        padding: 67px 0 30px;
+
+        &--info {
+            display: flex;
+
+            img {
+                width: 153px;
+                margin-top: -40px;
+                margin-right: 7px;
+            }
+
+            &-ascent {
+                max-width: 45%;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.44px;
+
+                &-classical {
+                    font-family: 'Open Sans';
+                    font-weight: 700;
+                    line-height: 18px;
+                    letter-spacing: -0.06px;
+                }
+
+                p:not(:first-child) {
+                    font-family: 'Open Sans';
+                    font-weight: 500;
+                    letter-spacing: -0.06px;
+                    margin-top: 4px;
+                }
+            }
+        }
+
+        &--links {
+            &-contact {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 7px;
+
+                a {
+                    margin-right: 30px;
+                    margin-bottom: 19px;
+                    text-decoration: none;
+                    color: #142C54;
+                    font-size: 15px;
+                    font-family: 'Open Sans';
+                    font-weight: 500;
+                    line-height: 17px;
+                }
+            }
+
+            &-iconcontact {
+                img {
+                    min-width: 35px;
+                    margin-right: 11px;
+                }
+            }
+        }
+    }
+
+    &-bottom {
+        background-color: #F1F6FF;
+        padding: 10px 0px 10px;
+        letter-spacing: 0.3px;
+
+        p {
+            font-size: 15px;
+            color: #142C54;
+            font-family: 'Open Sans';
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer {
+        &-top {
+            &--info {
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                img{
+                    width: 117px;
+                    margin: -100px 0 0;
+                }
+            }
+
+            &--links {
+                &-contact {
+
+                    margin-bottom: 44px
+                    a{
+                        margin-right: 62px;
+                        line-height: 20px;
+                    }
+                }
+                &-iconcontact{
+                    img{
+                        min-width: 47px;
+                    }
+                }
+            }
+        }
+    }
+}

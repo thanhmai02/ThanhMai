@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.078431375 0 0 0 0 0.17254902 0 0 0 0 0.32941177 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="hand-holding-medical-solid" >
+    <path d="M8.68217 0L8.68217 3.125L5.5814 3.125L5.5814 6.875L8.68217 6.875L8.68217 10L12.4031 10L12.4031 6.875L15.5039 6.875L15.5039 3.125L12.4031 3.125L12.4031 0L8.68217 0ZM5.42636 12.7734L2.66667 15L0 15L0 20L1.24031 20L8.68217 20L14.8837 20L15.3643 20L15.7597 19.7266L20.7209 16.2891L22 15.4023L20.2442 12.8281L18.9651 13.7148L15.3023 16.2539L9.92248 16.2539L9.92248 15L11.1628 15L13.6434 15L14.8837 15L14.8837 12.5L13.6434 12.5L11.1628 12.5L8.68217 12.5L6.20155 12.5L5.76744 12.5L5.42636 12.7734Z" id="Shape" fill="#142C54" stroke="none" />
+  </g>
+</svg>
